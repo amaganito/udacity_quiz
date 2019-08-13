@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Warriors Quiz</string>
+    <string name="QuestionTestNumber1">Question 1</string>
+    <string name="QuestionTestNumber2">Question 2</string>
+    <string name="QuestionTestNumber3">Question 3</string>
+    <string name="QuestionTestNumber4">Question 4</string>
+    <string name="QuestionTestNumber5">Question 5</string>
+    <string name="QuestionTestNumber6">Question 6</string>
+    <string name="Question1">What number does Stephen Curry wear?</string>
+    <string name="Question2">Which of the following teams has Kevin Durant played for?</string>
+    <string name="Question3">Which of the following Warriors have won MVP?</string>
+    <string name="Question4">How many NBA Championships has Steve Kerr won as a coach and player?</string>
+    <string name="Question5">What is the name of the shoe company Klay Thompson has a deal with?</string>
+    <string name="Question6">What is the name of the shoe company Kevin Durant has a deal with?</string>
+    <string name="Q1answr1">23</string>
+    <string name="Q1answr2">32</string>
+    <string name="Q1answr3">30</string>
+    <string name="Q1answr4">42</string>
+    <string name="Q2answr1">Sonics</string>
+    <string name="Q2answr2">Lakers</string>
+    <string name="Q2answr3">Thunder</string>
+    <string name="Q2answr4">Bulls</string>
+    <string name="Q3answr1">Durant</string>
+    <string name="Q3answr2">McGee</string>
+    <string name="Q3answr3">Thomas</string>
+    <string name="Q3answr4">Curry</string>
+    <string name="Q4answr1">7</string>
+    <string name="Q4answr2">5</string>
+    <string name="Q4answr3">9</string>
+    <string name="Q4answr4">8</string>
+    <string name="Q5answr">Anta</string>
+    <string name="Q6answr">Nike</string>
+    <string name="Submit">Submit</string>
+
+</resources>
