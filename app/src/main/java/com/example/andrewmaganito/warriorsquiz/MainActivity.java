@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     //This method checks if question 4 is answered correctly
     public void radioButtonQ4(View view) {
-        if (view.getId() == R.id.q4_answer) {
+        if (view.getId() == R.id.rb_q4_answer_5) {
             score[3] = 1;
         } else {
             score[3] = 0;
@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
     //This method checks if question 2 is answered correctly
     public void checkBoxQ2(View view) {
-        CheckBox answer_one = (CheckBox) findViewById(R.id.cb_q2_answer1_sonics);
-        CheckBox answer_two = (CheckBox) findViewById(R.id.cb_q2_answer2_lakers);
-        CheckBox answer_three = (CheckBox) findViewById(R.id.cb_q2_answer3_thunder);
-        CheckBox answer_four = (CheckBox) findViewById(R.id.cb_q2_answer4_bull);
+        CheckBox answer_one = findViewById(R.id.cb_q2_answer1_sonics);
+        CheckBox answer_two = findViewById(R.id.cb_q2_answer2_lakers);
+        CheckBox answer_three = findViewById(R.id.cb_q2_answer3_thunder);
+        CheckBox answer_four = findViewById(R.id.cb_q2_answer4_bull);
         boolean check_one = answer_one.isChecked();
         boolean check_two = answer_two.isChecked();
         boolean check_three = answer_three.isChecked();
@@ -57,10 +57,10 @@ public class MainActivity extends AppCompatActivity {
 
     //This method checks if question 3 is answered correctly
     public void checkBoxQ3(View view) {
-        CheckBox answer_one = (CheckBox) findViewById(R.id.cb_q3_answer1_durant);
-        CheckBox answer_two = (CheckBox) findViewById(R.id.cb_q3_answer2_mcgee);
-        CheckBox answer_three = (CheckBox) findViewById(R.id.cb_q3_answer3_thomas);
-        CheckBox answer_four = (CheckBox) findViewById(R.id.cb_q3_answer4_curry);
+        CheckBox answer_one = findViewById(R.id.cb_q3_answer1_durant);
+        CheckBox answer_two = findViewById(R.id.cb_q3_answer2_mcgee);
+        CheckBox answer_three = findViewById(R.id.cb_q3_answer3_thomas);
+        CheckBox answer_four = findViewById(R.id.cb_q3_answer4_curry);
         boolean check_one = answer_one.isChecked();
         boolean check_two = answer_two.isChecked();
         boolean check_three = answer_three.isChecked();
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
     //This method checks if question 5 is answered correctly
     private void editTextQ5() {
-        EditText answer = (EditText) findViewById(R.id.q5_answer);
+        EditText answer = findViewById(R.id.q5_answer);
         String string = answer.getText().toString();
         if (string.equalsIgnoreCase(getString(R.string.Q5answr))) {
             score[4] = 1;
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
     //This method checks if question 5 is answered correctly
     private void editTextQ6() {
-        EditText answer = (EditText) findViewById(R.id.q6_answer);
+        EditText answer = findViewById(R.id.q6_answer);
         String string = answer.getText().toString();
         if (string.equalsIgnoreCase(getString(R.string.Q6answr))) {
             score[5] = 1;
